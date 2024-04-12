@@ -19,10 +19,6 @@ image = SubResource("Image_8bghc")
 
 [node name="Node2D" type="Node2D"]
 
-[node name="SpriteSheet" type="Sprite2D" parent="."]
-position = Vector2(-49, -34)
-texture = ExtResource("1_nkic5")
-
 [node name="SpriteReinvented" type="Sprite2D" parent="."]
 position = Vector2(-53, 12)
 texture = SubResource("ImageTexture_j2i3r")
@@ -30,6 +26,10 @@ script = ExtResource("2_2hx08")
 map_texture = ExtResource("3_tddqy")
 skin_texture = ExtResource("4_qbjri")
 base_texture = ExtResource("1_nkic5")
+
+[node name="SpriteSheet" type="Sprite2D" parent="."]
+position = Vector2(-49, -34)
+texture = ExtResource("1_nkic5")
 
 [node name="SkinTest" type="Sprite2D" parent="."]
 position = Vector2(-44, -12)
