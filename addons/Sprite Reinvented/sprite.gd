@@ -20,8 +20,10 @@ signal skin_changed
 		apply_skin()
 
 ##Texture to apply by [member map_texture] colors
-@export var skin_texture : Texture2D = null:
+@export var skin_texture : Texture2D:
 	set(new_texture):
+		if skin_texture:
+			skin_texture.changed.connect(apply_skin)
 		skin_texture = new_texture
 		apply_skin()
 		emit_signal("skin_changed")
@@ -30,6 +32,7 @@ signal skin_changed
 @export var base_texture : Texture2D = null:
 	set(new_texture):
 		base_texture = new_texture
+		print(1 << 2)
 		apply_skin()
 
 ##This dictionary contain all pixels (color and position) 
@@ -89,4 +92,5 @@ func apply_skin():
 						new_image.set_pixelv(pixel_pos, skin_color)
 		
 		var image_texture = ImageTexture.create_from_image(new_image)
+		print("APPLY SKIN")
 		texture = image_texture
