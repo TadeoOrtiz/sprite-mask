@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4xmlkxo1tsjj"
-path="res://.godot/imported/base_texture.png-97d6155855a435ffa3ee85f73d0c4bf9.ctex"
+uid="uid://c7re34ex3fj54"
+path="res://.godot/imported/human_base.png-f41be25cb9ab68859eeae1faf504d79e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/Sprite Reinvented/preview/base_texture.png"
-dest_files=["res://.godot/imported/base_texture.png-97d6155855a435ffa3ee85f73d0c4bf9.ctex"]
+source_file="res://addons/Sprite Reinvented/preview/human_base.png"
+dest_files=["res://.godot/imported/human_base.png-f41be25cb9ab68859eeae1faf504d79e.ctex"]
 
 [params]
 

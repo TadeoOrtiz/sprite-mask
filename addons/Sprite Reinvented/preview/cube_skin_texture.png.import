@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d213topv4tlux"
-path="res://.godot/imported/map_texture.png-bd54df9fe48f634f8d9f59b501259eb7.ctex"
+uid="uid://ycla7hr2jepq"
+path="res://.godot/imported/cube_skin_texture.png-de1e374411e3de312cefdc65ca746abc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/Sprite Reinvented/preview/map_texture.png"
-dest_files=["res://.godot/imported/map_texture.png-bd54df9fe48f634f8d9f59b501259eb7.ctex"]
+source_file="res://addons/Sprite Reinvented/preview/cube_skin_texture.png"
+dest_files=["res://.godot/imported/cube_skin_texture.png-de1e374411e3de312cefdc65ca746abc.ctex"]
 
 [params]
 

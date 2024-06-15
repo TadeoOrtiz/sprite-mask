@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://do7oll35divq8"
-path="res://.godot/imported/skinea.png-01b42bf5912fb7e7dd7beb5f004d3f88.ctex"
+uid="uid://d3bswf5m8pybo"
+path="res://.godot/imported/human_map.png-38187d57c9dfd76fa654798ad4b62f54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/Sprite Reinvented/preview/skinea.png"
-dest_files=["res://.godot/imported/skinea.png-01b42bf5912fb7e7dd7beb5f004d3f88.ctex"]
+source_file="res://addons/Sprite Reinvented/preview/human_map.png"
+dest_files=["res://.godot/imported/human_map.png-38187d57c9dfd76fa654798ad4b62f54.ctex"]
 
 [params]
 
