@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ycla7hr2jepq"
-path="res://.godot/imported/cube_skin_texture.png-437716b6608434b0f43f57df47e25e7a.ctex"
+uid="uid://d213topv4tlux"
+path="res://.godot/imported/cube_map_texture.png-78fe0fa5ccce2f509772feec2669b809.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/sprite-mask/preview/cube_skin_texture.png"
-dest_files=["res://.godot/imported/cube_skin_texture.png-437716b6608434b0f43f57df47e25e7a.ctex"]
+source_file="res://addons/sprite-mask/test_images/cube_map_texture.png"
+dest_files=["res://.godot/imported/cube_map_texture.png-78fe0fa5ccce2f509772feec2669b809.ctex"]
 
 [params]
 

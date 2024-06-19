@@ -1,7 +1,8 @@
-@icon("res://addons/Sprite Reinvented/icon.png")
+@icon("res://addons/sprite-mask/icon.png")
 @tool
+class_name SpriteMask
 extends Sprite2D
-class_name SpriteReinvented
+
 
 ## Sprite Reinvented. Based in Aarhificial Idea
 ##
