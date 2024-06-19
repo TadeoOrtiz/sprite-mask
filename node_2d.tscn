@@ -25,3 +25,15 @@ script = ExtResource("1_jy7js")
 base_texture = ExtResource("2_gka2p")
 map_texture = ExtResource("3_b773n")
 skin_texture = ExtResource("4_2vcql")
+
+[node name="CubeBase" type="Sprite2D" parent="."]
+position = Vector2(-10, -11)
+texture = ExtResource("2_gka2p")
+
+[node name="CubeMapTexture" type="Sprite2D" parent="."]
+position = Vector2(0, -11)
+texture = ExtResource("3_b773n")
+
+[node name="CubeSkinTexture" type="Sprite2D" parent="."]
+position = Vector2(9, -11)
+texture = ExtResource("4_2vcql")
