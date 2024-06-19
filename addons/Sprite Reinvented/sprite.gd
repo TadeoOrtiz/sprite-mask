@@ -42,7 +42,6 @@ signal base_changed
 			skin_texture.changed.connect(_apply_skin)
 		_apply_skin()
 
-
 ## This dictionary contain all pixels (color and position)
 ## of [member map_texture]
 ## [codeblock]
@@ -60,22 +59,27 @@ signal base_changed
 ## [/codeblock]
 var pixels_map: Dictionary
 
-## This function return [Dictionary] with pixel position and color
+## This function return [Dictionary] with pixel color and position
 func get_pixels(_texture: Texture2D) -> Dictionary:
 	var dir: Dictionary
 	if _texture:
-		# Create image
+		# Get image
 		var image: Image = _texture.get_image()
 		
 		var heigth := _texture.get_height()
 		var width := _texture.get_width()
 		var pixel_pos: Vector2i
+		
+		# Travel image
 		for x in width:
 			for y in heigth:
 				pixel_pos = Vector2i(x, y)
 				var pixel_color = image.get_pixelv(pixel_pos)
+				
+				# Add only pixels non-transparent
 				if pixel_color.a != 0:
 					dir[pixel_color] = pixel_pos
+	
 	return dir
 
 ## Apply skin_texture to base_texture with
@@ -104,18 +108,16 @@ func _apply_skin():
 		
 		for x in base_texture.get_width():
 			for y in base_texture.get_height():
-				await get_tree().create_timer(0.5).timeout
 				var pixel_pos: Vector2i = Vector2i(x, y)
 				var pixel_color: Color = new_image.get_pixelv(pixel_pos)
 				if pixel_color.a == 0 or not pixels_map.has(pixel_color):
 					continue
 				
 				var new_pixel_color: Color = skin_image.get_pixelv(pixels_map[pixel_color])
-				print(pixels_map[pixel_color])
-				print(new_pixel_color)
 				new_image.set_pixelv(pixel_pos, new_pixel_color)
 				
-				texture = ImageTexture.create_from_image(new_image)
-				emit_signal("skin_applied")
-				queue_redraw()
+		
+		texture = ImageTexture.create_from_image(new_image)
+		emit_signal("skin_applied")
+		queue_redraw()
 
