@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c88ghhuhlwb44"
-path="res://.godot/imported/human_skin.png-c5e575fe257a0e3aa520e19c4983efe1.ctex"
+uid="uid://c7re34ex3fj54"
+path="res://.godot/imported/human_base.png-0d0afcbe71856845855178afdb77a2a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/Sprite Reinvented/preview/human_skin.png"
-dest_files=["res://.godot/imported/human_skin.png-c5e575fe257a0e3aa520e19c4983efe1.ctex"]
+source_file="res://addons/sprite-mask/preview/human_base.png"
+dest_files=["res://.godot/imported/human_base.png-0d0afcbe71856845855178afdb77a2a7.ctex"]
 
 [params]
 

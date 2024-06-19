@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blh404e7o8bx0"
-path="res://.godot/imported/PlayerMap.png-394226adc77c6f2a27cb29629241b56c.ctex"
+uid="uid://khdbtdgym3nq"
+path="res://.godot/imported/skin_test.png-c458f11b687aa8bcd7462b7ee975c9ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/Sprite Reinvented/preview/PlayerMap.png"
-dest_files=["res://.godot/imported/PlayerMap.png-394226adc77c6f2a27cb29629241b56c.ctex"]
+source_file="res://addons/sprite-mask/preview/skin_test.png"
+dest_files=["res://.godot/imported/skin_test.png-c458f11b687aa8bcd7462b7ee975c9ff.ctex"]
 
 [params]
 
